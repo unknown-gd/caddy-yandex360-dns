@@ -80,7 +80,7 @@ docker run --rm caddy-yandex360 caddy list-modules | grep yandex360
 3. Under **Платформы приложения** (Application platforms), choose **Веб-сервисы** (Web services).
 4. In the **Redirect URI** field, click **Подставить URL для отладки** (Use URL for debugging).
    This fills in `https://oauth.yandex.ru/verification_code`.
-5. Under **Доступ к данным** (Data access), add the `directory:read_organization`, `directory:read_domains`, `directory:manage_dns`, `directory:write_domains` permission
+5. Under **Доступ к данным** (Data access), add the `directory:read_organization`, `directory:read_domains`, `directory:manage_dns`, `directory:write_domains` permissions
    (**Управление DNS-записями**, Manage DNS records). Nothing else is needed.
 6. Enter a contact email and click **Создать приложение** (Create app).
 7. Copy the **ClientID** from the app page.
