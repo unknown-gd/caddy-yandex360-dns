@@ -13,7 +13,7 @@ import (
 	"github.com/libdns/libdns"
 	"github.com/miekg/dns"
 
-	"github.com/caddy-dns/yandex360/libdnsyandex360"
+	"github.com/unknown-gd/caddy-yandex360-dns/libdnsyandex360"
 )
 
 func newWaitingProvider(t *testing.T, check func(ctx context.Context, zone, fqdn, value string) (bool, error)) *Provider {

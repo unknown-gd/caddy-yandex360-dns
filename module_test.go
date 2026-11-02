@@ -8,7 +8,7 @@ import (
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
 
-	"github.com/caddy-dns/yandex360/libdnsyandex360"
+	"github.com/unknown-gd/caddy-yandex360-dns/libdnsyandex360"
 )
 
 func TestUnmarshalCaddyfile(t *testing.T) {

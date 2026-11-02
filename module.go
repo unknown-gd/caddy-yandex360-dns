@@ -9,7 +9,7 @@ import (
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
 	"github.com/libdns/libdns"
 
-	"github.com/caddy-dns/yandex360/libdnsyandex360"
+	"github.com/unknown-gd/caddy-yandex360-dns/libdnsyandex360"
 )
 
 // Provider lets Caddy read and manipulate DNS records hosted by Yandex 360.

@@ -1,4 +1,4 @@
-module github.com/caddy-dns/yandex360
+module github.com/unknown-gd/caddy-yandex360-dns
 
 go 1.25.0
 
